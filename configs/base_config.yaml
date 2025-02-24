@@ -1,0 +1,29 @@
+# 数据配置
+data:
+  image_dir: "data/val/images"  # 图像目录
+  json_dir: "data/val/mask"     # 标注目录
+  supported_formats: [".png", ".jpg", ".jpeg", ".bmp"]
+  img_size: 640                   # 图像尺寸
+  test_size: 0.2                  # 验证集比例
+  random_state: 42                # 随机种子
+
+model:
+  in_channels: 1                  # 输入通道数
+  out_channels: 1                 # 输出通道数
+  init_features: 64               # 初始特征数
+
+training:
+  batch_size: 8                   # 批次大小
+  num_epochs: 50                  # 训练轮数
+  learning_rate: 0.0001           # 学习率
+  device: "cpu"                   # 设备类型（cpu/cuda）
+
+#训练代码python main.py --mode train --config configs/base_config.yaml
+#单张推理python main.py --mode infer \
+#    --image data/mri_images/case_001.jpg \
+#    --model saved_models/best_model.pth
+#可视化验证from data.json_processor import LabelmeJSONParser
+#
+## 标注预览
+#parser = LabelmeJSONParser("data/annotations/case_001.json")
+#parser.show_mask()

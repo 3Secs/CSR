@@ -1,0 +1,21 @@
+background
+VB2
+IVD1
+VB3
+IVD2
+VB4
+IVD3
+VB5
+IVD4
+VB6
+IVD5
+VB7
+vCSF
+Spinal cord
+dCSF
+5. vCSF
+vCSF 代表 ventricular cerebrospinal fluid（脑室脑脊液）。在脊柱领域，这可能指的是围绕脊髓的脑脊液（CSF），它起到缓冲和保护作用。
+6. Spinal cord
+Spinal cord（脊髓）：这是中枢神经系统的一部分，位于椎管内，负责传递神经信号。
+7. dCSF
+dCSF 代表 dorsal cerebrospinal fluid（背侧脑脊液）。这指的是位于脊髓背侧（后侧）的脑脊液，起到保护和营养作用。
